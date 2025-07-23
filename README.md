@@ -14,17 +14,18 @@ A minimal and intuitive web application to manage your daily tasks and boost pro
 
 ## 🌐 Live Demo
 
-🔗 [Click here to try the app](#) *(Add your GitHub Pages or Netlify link here)*
+🔗<!--* [Click here to try the app](#) *(Add your GitHub Pages or Netlify link here)**-->
+will be added soon
 
 ## 🛠️ Tech Stack
 
 - **Frontend:** HTML, CSS, JavaScript  
-- *(Optional: Add frameworks/libraries if used, like Bootstrap, React, etc.)*
+- <!--*(Optional: Add frameworks/libraries if used, like Bootstrap, React, etc.)*-->
 
 ## 📸 Screenshots
 
-*(Insert screenshots here)*  
-> ![screenshot](screenshots/todo-app.png)
+ 
+> ![screenshot](todo.png)
 
 ## 🧠 How It Works
 
@@ -33,5 +34,5 @@ A minimal and intuitive web application to manage your daily tasks and boost pro
 3. Updates reflect instantly without page reload.
 4. *(Optional)* Tasks are stored locally for persistence.
 
-## 📁 Folder Structure
+
 
