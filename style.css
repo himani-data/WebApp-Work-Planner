@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+
+}
+body{
+    /* background-color:blue; */
+    background: linear-gradient(135deg, #a18cd1 0%, #fbc2eb 100%);
+background-attachment: fixed;
+height:100vh;
+justify-content: center;
+align-items:center;
+display: flex;
+/* margin-left:20px; */
+
+}
+.CONTAINER{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+    background-color: #fbc2eb;
+    height:auto;
+    width:fit-content;
+
+    box-shadow: 4px 5px 6px;
+    
+
+}
+
+.input{
+    width:100%;
+    max-width: 500px;
+    padding:20px;
+    text-align: center;
+    border-bottom:0.5px solid white;
+}
+
+.input-container input{
+    border: none;
+    outline:none;
+    padding:12px;
+    margin-block:12px;
+    border-radius:4px;
+    font-size:16px;
+        /* border-bottom:0.5px solid white; */
+        margin-bottom: 20px;
+
+}
+
+.input-container input[type="text"]{
+    width:70%;
+    border-radius:5px;
+        background-color:antiquewhite;
+
+        /* border-bottom:0.5px solid rgb(149, 15, 31); */
+
+}
+
+.input-container input[type="button"]{
+    background-color: blue;
+    color:#fbc2eb;
+    border-radius:5px;
+    font-weight: 700;
+    margin-left: 8px;
+    cursor:pointer;
+    padding:12px 20px;
+
+}
+
+.input-container input[type="button"]:hover{
+    background-color:rgb(65, 152, 178);
+}
+ul{
+    width:100%;
+    max-width: 450px;
+    display:flex;
+    justify-content: center;
+    flex-direction:column ;
+
+}
+
