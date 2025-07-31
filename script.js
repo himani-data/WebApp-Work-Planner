@@ -77,18 +77,14 @@ function toggleTaskComplete(index) {
 const updateStats = () => {
   const completeTasks = tasks.filter((task) => task.completed).length;
   const totalTask = tasks.length;
-  const progressBar = document.getElementById("progres");
+  const progressBar = document.getElementById("progress");
 
-  console.log("updateStats called");
-  console.log("completeTasks:", completeTasks, "totalTask:", totalTask);
-  console.log("progressBar element:", progressBar);
+ 
 
-  if (totalTask === 0) {
-    progressBar.style.width = "0%";
-    return;
-  }
+ progressBar.style.width = `${progress}%`;
+   
+  
+  
 
-  const progress = (completeTasks / totalTask) * 100;
-  console.log("Setting progress width to:", `${progress}%`);
-  progressBar.style.width = `${progress}%`;
+  
 };

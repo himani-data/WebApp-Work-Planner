@@ -95,7 +95,7 @@ color:aliceblue;
 
 
 #progress{
-    width:auto%;
+    width:100%;
     height:10px;
     background:linear-gradient(pink,blue);
     border-radius: 10px;
