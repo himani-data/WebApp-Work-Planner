@@ -2,10 +2,10 @@ let task=[];
 
 const addtask=()=>{
     const taskinput=document.getElementById('taskinput');
-    const text=taskInput.value.trim();
+    const text=task.value.trim();
 if(text){
     task.push({text:text,completed:false});
-    taskInput.value="";
+    task.value="";
     updateTaskList();
 }
 };
