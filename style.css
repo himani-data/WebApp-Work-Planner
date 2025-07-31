@@ -9,14 +9,18 @@
 
 }
 body{
-    background-color:blue;
-    background: linear-gradient(135deg, #a18cd1 0%, #fbc2eb 100%);
+    /* background-color:blue; */
+    background-image:url("bg.jpg") ;
+    background-repeat: no-repeat;
+background-size: contain;
 
- /* background-attachment: fixed;
+    /* background: linear-gradient(135deg, #a18cd1 0%, #fbc2eb 100%); */
+
+ background-attachment: fixed;
 height:100vh;
 justify-content: center; 
  align-items:center;
-display: flex;  */
+display: flex; 
 
 
 }
@@ -26,32 +30,56 @@ display: flex;  */
     justify-content: center;
     align-items:center;
     /* margin-top: 40px; */
-    margin-bottom:60px;
-    margin:120px auto 0 auto;
-    max-width: 500px;
+    margin-bottom:90px;
+    margin:100px auto 60px auto;
+    max-width: 700px;
+    width: 80%;
     /* position: relative; */
-    background-color: #fbc2eb;
+    /* background-color: #fbc2eb; */
     height:auto;
     /* width:fit-content; */
     /* background:linear-gradient(purple,pink,lightblue); */
     box-shadow: 4px 5px 6px;
+    
+  /* background: linear-gradient(135deg, rgba(255,255,255,0.15), rgba(255,255,255,0.05)); */
+
+
 /* background: */
 
+.bg-image {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  object-fit: fill; /* Or try 'cover' / 'contain' */
+  z-index: -1;
+}
 
     
 
 }
 .statscont{
     padding:30px;
-    padding-top: 80px;
+    padding-top: 60px;
     border-radius: 10px;
-    border:2px solid blueviolet;
+    border:6px solid rgb(20, 20, 20);
     display:flex;
     justify-content: space-between;
     align-items:center;
-    background:purple;
+    /* background:purple; */
+
+background: rgba(255, 255, 255, 0.1); /* semi-transparent glass */
+backdrop-filter: blur(20px);
+/* -webkit-backdrop-filter: blur(10px); for Safari support */
+border: 1px solid rgba(255, 255, 255, 0.3); /* softer glassy border */
+box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2); /* subtle shadow */
+color:aliceblue;
+
     gap:10px;
     width:100%;
+
+
 
 }
 
@@ -79,14 +107,15 @@ display: flex;  */
 #number{
     width: 100px;
     height: 100px;
-    background-color:#a18cd1;
-    display: flex;
+    background-color: rgba(11, 163, 239, 0.2);
     align-items:center;
     border-radius: 50px;
     justify-content:center;
+    text-align: center;
     font-size: 30px;
     font-weight:900;
-     margin-top:auto;
+     margin-top:0px;
+     padding: 25px;
 }
 
 .details{
@@ -117,7 +146,7 @@ input{
     /* background:; */
     color:brown;
     border:1px solid violet ;
-    margin-block:12px;
+    margin-block:1px;
     border-radius:10px;
     font-size:16px;
         border-bottom:0.5px solid ;
@@ -132,16 +161,18 @@ border-radius: 50%;
 display:flex;
 align-items:center;
 justify-content: center;
-background-color:cornflowerblue;
+background-color:palevioletred;
 color:blue;
 font-size:30px;
 font-weight:bold;
 cursor: pointer;
 outline:none;
+  transition: box-shadow 0.3s ease, background-color 0.3s ease;
+
 
 }
-.button input[type="button"]:hover{
-    background-color:#fbc2eb;
+button:hover{
+      background-color:lightblue;
 }
 
 /* .text input[type="text"]{
