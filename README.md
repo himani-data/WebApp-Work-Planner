@@ -25,7 +25,7 @@ will be added soon
 ## 📸 Screenshots
 
  
-> ![screenshot](todo.png)
+> ![screenshot](TODO.png)
 
 ## 🧠 How It Works
 
