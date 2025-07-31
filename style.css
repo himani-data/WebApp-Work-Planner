@@ -94,8 +94,8 @@ color:aliceblue;
 }
 
 
-#progres{
-    width: 80%;
+#progress{
+    width:auto%;
     height:10px;
     background:linear-gradient(pink,blue);
     border-radius: 10px;
@@ -134,7 +134,7 @@ form{
     max-width: 500px;
     padding:20px;
     text-align: center;
-    border-bottom:0.5px solid white;
+    /* border-bottom:0.5px solid white; */
     gap:10px;
 }
 
@@ -288,7 +288,58 @@ ul{
     text-align: center;
     display:flex;
 } */
+#tasks{
+  display: flex;
+  flex-direction: column;
+  gap:10px;
+  margin-top: 30px;
+  margin-bottom: 3px;
+  width: 99%;
+  list-style: none;
 
 
+
+}
+
+.taskItem{
+  display: flex;
+  /* background-color: antiquewhite; */
+  background: rgba(255, 255, 255, 0.2); /* semi-transparent glass */
+backdrop-filter: blur(20px);
+/* -webkit-backdrop-filter: blur(10px); for Safari support */
+border: 1px solid rgba(255, 255, 255, 0.3); /* softer glassy border */
+box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2); /* subtle shadow */
+color:aliceblue;
+
+  padding: 10px;
+  /* border: 10px; */
+  justify-content:space-between;
+  align-items: center;
+  border: 2px solid white;
+
+}
+.task{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+
+}
+
+.task input{
+  width: 20px;
+  height: 20px;
+
+
+}
+.taskItem img{
+  width:24px;
+  height: 24px;
+  cursor: pointer;
+  margin: 0 10px;
+  color: #000;
+
+
+
+}
     
  
