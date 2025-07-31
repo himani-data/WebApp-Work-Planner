@@ -104,7 +104,25 @@ const updateStats = () => {
   document.getElementById("number").innerText = `${completeTasks}/${totalTask}`;
   if(tasks.length && completeTasks==totalTask){
     blast();
-  }
+     const container = document.querySelector(".CONTAINER");
+    //  const container = document.getElementById("CONTAINER");
+    container.classList.add("glow-effect")
+  
+
+  setTimeout(() => {
+  container.classList.remove("glow-effect");
+
+const completedTasks = document.querySelectorAll('.task input[type="checkbox"]:checked');
+    completedTasks.forEach(checkbox => {
+      checkbox.closest('.task').remove();
+    });
+      localStorage.removeItem("tasks");
+
+  document.getElementById("number").innerText = `0/0`;
+
+}, 1000);
+
+} 
 };
   
 
