@@ -115,7 +115,8 @@ color:aliceblue;
     font-size: 30px;
     font-weight:900;
      margin-top:0px;
-     padding: 25px;
+     display: flex;
+     /* padding:30px; */
 }
 
 .details{
