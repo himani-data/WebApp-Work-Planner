@@ -112,13 +112,13 @@ const updateStats = () => {
   setTimeout(() => {
   container.classList.remove("glow-effect");
 
-const completedTasks = document.querySelectorAll('.task input[type="checkbox"]:checked');
-    completedTasks.forEach(checkbox => {
-      checkbox.closest('.task').remove();
-    });
-      localStorage.removeItem("tasks");
+// const completedTasks = document.querySelectorAll('.task input[type="checkbox"]:checked');
+//     completedTasks.forEach(checkbox => {
+//       checkbox.closest('.task').remove();
+//     });
+//       localStorage.removeItem("tasks");
 
-  document.getElementById("number").innerText = `0/0`;
+//   document.getElementById("number").innerText = `0/0`;
 
 }, 1000);
 
