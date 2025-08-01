@@ -130,13 +130,14 @@ color:aliceblue;
 
 form{
     margin-top: 50px;
-    width:100%;
+    width:90%;
     display: flex;
-    max-width: 500px;
+    max-width: 100%;
     padding:20px;
+    display: flex;
     text-align: center;
     /* border-bottom:0.5px solid white; */
-    gap:20px;
+    gap:10px;
     flex-wrap: wrap;
     
 }
@@ -154,7 +155,8 @@ input{
     font-size:16px;
         border-bottom:0.5px solid ;
         box-sizing: border-box;
-        min-width:60%;
+        /* min-width:60%; */
+        width: 100%;
         /* margin-left: 1px; */
   
 
@@ -287,7 +289,7 @@ color:#000;
 
 }
 
-.task ul {
+.task p {
   word-break: break-word;
   overflow-wrap: break-word;
   white-space: normal;
