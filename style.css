@@ -252,31 +252,26 @@ button:hover{
   width: 99%;
   list-style:none;
   /* flex-wrap: wrap; */
-      word-wrap: break-word;305 i need to make a change a
+      word-wrap: break-word;
 }
 
 .taskItem{
   display:flex;
-  /* background-color: antiquewhite; */
-  background: rgba(255, 255, 255, 0.2); /* semi-transparent glass */
+  background: rgba(255, 255, 255, 0.2); 
 backdrop-filter: blur(20px);
-/* -webkit-backdrop-filter: blur(10px); for Safari support */
-border: 1px solid rgba(255, 255, 255, 0.3); /* softer glassy border */
-box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2); /* subtle shadow */
+
+border: 1px solid rgba(255, 255, 255, 0.3); 
+box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2); 
 color:#000;
-min-height: 50px;
   padding: 10px;
-  /* border: 10px; */
   justify-content:space-between;
   align-items:center;
   border: 2px solid white;
   flex-wrap: wrap;
-  /* word-break: break-word; */
-    white-space: normal;
-      /* overflow-wrap: break-word; */
-      overflow-wrap: break-word;
-      word-break: break-word;
-      word-wrap: break-word;
+  white-space: normal;
+  overflow-wrap: break-word; 
+  word-wrap: break-word; 
+    width: 100%; 
 
 }
 
@@ -285,11 +280,18 @@ min-height: 50px;
 .task{
   display: flex;
   align-items: center;
-  justify-content: center;
+  /* justify-content: flex-start; */
   
   gap: 10px;
-  /* white-space: nowrap;
-    word-wrap: break-word; */
+  
+
+}
+
+.task ul {
+  word-break: break-word;
+  overflow-wrap: break-word;
+  white-space: normal;
+  max-width: 100%;
 }
 
 .task input{
